@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://EvanJMorrison.github.io/al-folio/sitemap.xml
+Sitemap: https://EvanJMorrison.github.io/sitemap.xml
