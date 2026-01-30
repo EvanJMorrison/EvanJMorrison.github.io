@@ -15,7 +15,7 @@ profile:
     <p><a href="mailto:morrison.j.evan@gmail.com">morrison.j.evan@gmail.com</a></p>
 
 selected_papers: true 
-social: true 
+social: false
 
 announcements:
   enabled: true # includes a list of news items
