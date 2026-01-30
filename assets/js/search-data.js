@@ -441,7 +441,7 @@ ninja.data = [{
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
             },},{id: "news-i-have-officially-earned-my-phd-in-molecular-biology",
-          title: 'I have officially earned my PhD in Molecular Biology',
+          title: 'I have officially earned my PhD in Molecular Biology.',
           description: "",
           section: "News",},{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
