@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Postdoctoral Researcher</p>
     <p>Stowers Institute for Medical Research</p>
-    <p>Kansas City, MO</p>
+    <p>Kansas City, Missouri </p>
     <p><a href="mailto:morrison.j.evan@gmail.com">morrison.j.evan@gmail.com</a></p>
 
 selected_papers: true 
