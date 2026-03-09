@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-02-16'
+  last_updated: '2026-03-09'
 papers:
   Dbhh98QAAAAJ:35N4QoGY0k4C:
-    citations: 4
+    citations: 5
     title: Systematic identification and characterization of eukaryotic and viral 2A peptide-bond-skipping sequences
     year: '2025'
   Dbhh98QAAAAJ:70eg2SAEIzsC:
@@ -13,6 +13,10 @@ papers:
     citations: 0
     title: "Structure\u2010Function Analysis of the 3\u2032 CITE from the Blackcurrant Reversion Nepovirus Genomic RNA 2 (BRV2)"
     year: '2019'
+  Dbhh98QAAAAJ:M05iB0D1s5AC:
+    citations: 0
+    title: The generation and consequences of N-terminal proteoform diversity
+    year: '2026'
   Dbhh98QAAAAJ:RHpTSmoSYBkC:
     citations: 36
     title: 'Long noncoding RNAs in the pathogenesis of diabetic kidney disease: implications for novel therapeutic strategies'
