@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-03-09'
+  last_updated: '2026-03-16'
 papers:
   Dbhh98QAAAAJ:35N4QoGY0k4C:
     citations: 5
@@ -13,10 +13,6 @@ papers:
     citations: 0
     title: "Structure\u2010Function Analysis of the 3\u2032 CITE from the Blackcurrant Reversion Nepovirus Genomic RNA 2 (BRV2)"
     year: '2019'
-  Dbhh98QAAAAJ:M05iB0D1s5AC:
-    citations: 0
-    title: The generation and consequences of N-terminal proteoform diversity
-    year: '2026'
   Dbhh98QAAAAJ:RHpTSmoSYBkC:
     citations: 36
     title: 'Long noncoding RNAs in the pathogenesis of diabetic kidney disease: implications for novel therapeutic strategies'
@@ -50,7 +46,7 @@ papers:
     title: 'ZOOMICS: comparative metabolomics of red blood cells from old world monkeys and humans'
     year: '2020'
   Dbhh98QAAAAJ:k_IJM867U9cC:
-    citations: 54
+    citations: 55
     title: Fatty acid desaturase activity in mature red blood cells and implications for blood storage quality
     year: '2021'
   Dbhh98QAAAAJ:ldfaerwXgEUC:
