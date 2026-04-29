@@ -1,12 +1,12 @@
 metadata:
-  last_updated: '2026-03-30'
+  last_updated: '2026-04-29'
 papers:
   Dbhh98QAAAAJ:35N4QoGY0k4C:
     citations: 5
     title: Systematic identification and characterization of eukaryotic and viral 2A peptide-bond-skipping sequences
     year: '2025'
   Dbhh98QAAAAJ:70eg2SAEIzsC:
-    citations: 3
+    citations: 4
     title: The generation and consequences of N-terminal proteoform diversity
     year: '2025'
   Dbhh98QAAAAJ:JV2RwH3_ST0C:
@@ -22,7 +22,7 @@ papers:
     title: UBR4 regulates a MetAP2-dependent Arg/N-degron pathway
     year: '2024'
   Dbhh98QAAAAJ:TFP_iSt0sucC:
-    citations: 38
+    citations: 40
     title: Protein-L-isoaspartate O-methyltransferase is required for in vivo control of oxidative damage in red blood cells
     year: '2020'
   Dbhh98QAAAAJ:YFjsv_pBGBYC:
@@ -50,7 +50,7 @@ papers:
     title: 'ZOOMICS: comparative metabolomics of red blood cells from old world monkeys and humans'
     year: '2020'
   Dbhh98QAAAAJ:k_IJM867U9cC:
-    citations: 55
+    citations: 54
     title: Fatty acid desaturase activity in mature red blood cells and implications for blood storage quality
     year: '2021'
   Dbhh98QAAAAJ:ldfaerwXgEUC:
