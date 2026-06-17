@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-29'
+  last_updated: '2026-06-17'
 papers:
   Dbhh98QAAAAJ:35N4QoGY0k4C:
     citations: 5
@@ -22,11 +22,11 @@ papers:
     title: UBR4 regulates a MetAP2-dependent Arg/N-degron pathway
     year: '2024'
   Dbhh98QAAAAJ:TFP_iSt0sucC:
-    citations: 40
+    citations: 41
     title: Protein-L-isoaspartate O-methyltransferase is required for in vivo control of oxidative damage in red blood cells
     year: '2020'
   Dbhh98QAAAAJ:YFjsv_pBGBYC:
-    citations: 58
+    citations: 59
     title: Synonymous codon usage regulates translation initiation
     year: '2023'
   Dbhh98QAAAAJ:bEWYMUwI8FkC:
@@ -50,7 +50,7 @@ papers:
     title: 'ZOOMICS: comparative metabolomics of red blood cells from old world monkeys and humans'
     year: '2020'
   Dbhh98QAAAAJ:k_IJM867U9cC:
-    citations: 55
+    citations: 56
     title: Fatty acid desaturase activity in mature red blood cells and implications for blood storage quality
     year: '2021'
   Dbhh98QAAAAJ:ldfaerwXgEUC:
