@@ -6,6 +6,7 @@ img: # e.g. assets/img/projects/proteoforms.jpg
 importance: 1
 category: research
 related_publications: true
+img: assets/img/projects/proteoform-diversity-fig1.png
 ---
 
 <!-- DRAFT: content below is drawn only from published work. Edit freely. -->
