@@ -1,0 +1,9 @@
+github_users:
+  - EvanJMorrison
+
+repo_description_lines_max: 2
+
+github_repos:
+  - EvanJMorrison/EvanJMorrison.github.io
+  # Add your own repos here, e.g.:
+  # - EvanJMorrison/rqc-agent

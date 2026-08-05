@@ -1,0 +1,101 @@
+# ---------------------------------------------------------------------------
+# CV data (rendercv format). This is what /cv/ renders when
+# _pages/cv.md has `cv_format: rendercv`.
+#
+# LINES MARKED "TODO" ARE PLACEHOLDERS OR INFERENCES -- VERIFY BEFORE PUBLISHING.
+# Entries marked [inferred] were reconstructed from your publication record,
+# not from anything you stated. Correct or delete them.
+# ---------------------------------------------------------------------------
+cv:
+  name: Evan J. Morrison
+  label: Postdoctoral Researcher, Molecular Biology & Biochemistry
+  email: morrison.j.evan@gmail.com
+  location: Kansas City, Missouri, USA
+  image: ""
+  summary: >
+    Molecular biologist studying translation-coupled protein quality control.
+    My work centers on N-terminal processing, N-terminal proteoform diversity,
+    and N-degron pathways -- how N-terminal residue features are generated and
+    recognized to set protein half-life.
+
+  social_networks:
+    - network: GitHub
+      username: EvanJMorrison
+    - network: LinkedIn
+      username: morrison-j-evan
+    - network: ORCID
+      username: 0000-0003-2867-7665
+
+  sections:
+    Education:
+      - institution: University of Colorado Anschutz Medical Campus
+        location: Aurora, CO
+        url: https://medschool.cuanschutz.edu/
+        area: Molecular Biology & Biochemistry
+        studyType: PhD
+        start_date: 20XX # TODO: start year
+        end_date: 2025
+        highlights:
+          - "Advisor: Olivia S. Rissland"
+          - "Dissertation: TODO -- add title"
+
+      - institution: Metropolitan State University of Denver
+        location: Denver, CO
+        url: https://www.msudenver.edu/
+        area: Philosophy and Chemistry
+        studyType: BS/BA # TODO: confirm degree designation
+        start_date: 20XX # TODO
+        end_date: 20XX # TODO
+
+    Research Experience:
+      - company: Stowers Institute for Medical Research
+        position: Postdoctoral Researcher
+        location: Kansas City, MO
+        url: https://www.stowers.org/
+        start_date: 2025 # TODO: confirm start month/year
+        end_date: present
+        highlights:
+          - "TODO: 1-2 lines on your current research focus."
+
+      - company: University of Colorado Anschutz Medical Campus
+        position: Graduate Research Assistant, Rissland Lab
+        location: Aurora, CO
+        start_date: 20XX # TODO
+        end_date: 2025
+        highlights:
+          - Studied N-terminal proteoform diversity and MetAP-dependent N-degron pathways.
+          - Contributed to systematic characterization of 2A peptide-bond-skipping sequences.
+
+      # [inferred] from your 2019-2021 red blood cell metabolomics papers -- verify or delete
+      - company: University of Colorado Anschutz Medical Campus
+        position: Research Assistant, Department of Biochemistry and Molecular Genetics
+        location: Aurora, CO
+        start_date: 20XX # TODO
+        end_date: 20XX # TODO
+        highlights:
+          - "TODO: confirm title, lab, and dates."
+
+    Publications:
+      # The /publications/ page is generated from _bibliography/papers.bib.
+      # Keep this section short (selected works only) or delete it to avoid duplication.
+      - title: The generation and consequences of N-terminal proteoform diversity
+        authors: Morrison EJ, Rissland OS
+        journal: Cell Reports
+        year: 2025
+        url: https://doi.org/10.1016/j.celrep.2025.116275
+
+      - title: UBR4 regulates a MetAP-dependent N-degron pathway
+        authors: Morrison EJ, Shvartz D, Horton ER, Bekturova A, Koren I, Rissland OS
+        journal: bioRxiv (preprint)
+        year: 2024
+        url: https://doi.org/10.1101/2024.10.03.616566
+
+    Skills:
+      - name: Molecular Biology
+        keywords: [TODO, add, your, techniques]
+      - name: Computational
+        keywords: [TODO, e.g. Python, R, ribosome profiling analysis]
+
+    # Delete any section below that you do not want on the page.
+    Awards: []
+    Teaching: []

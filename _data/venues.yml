@@ -1,0 +1,29 @@
+# Journal/venue abbreviations used by the `abbr` field in _bibliography/papers.bib.
+# `color` sets the badge color; `url` makes the badge clickable.
+"Cell Rep":
+  url: https://www.cell.com/cell-reports/home
+  color: "#0b5394"
+
+"bioRxiv":
+  url: https://www.biorxiv.org/
+  color: "#bb2528"
+
+"Haematologica":
+  url: https://haematologica.org/
+  color: "#8a2846"
+
+"Transfusion":
+  url: https://onlinelibrary.wiley.com/journal/15372995
+  color: "#a33"
+
+"Nutrients":
+  url: https://www.mdpi.com/journal/nutrients
+  color: "#1f7a3f"
+
+"Front Physiol":
+  url: https://www.frontiersin.org/journals/physiology
+  color: "#1a5f7a"
+
+"Per Med":
+  url: https://www.futuremedicine.com/journal/pme
+  color: "#4b3f72"

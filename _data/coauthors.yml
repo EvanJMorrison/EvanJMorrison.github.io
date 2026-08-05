@@ -1,0 +1,29 @@
+# Maps last names in papers.bib to first-name variants and (optionally) a link.
+# al-folio uses this to render coauthor names consistently and hyperlink them.
+"rissland":
+  - firstname: ["Olivia", "Olivia S.", "O.S.", "O. S."]
+    url: https://medschool.cuanschutz.edu/rnabioscience/faculty/olivia-rissland
+
+"rao":
+  - firstname: ["Deviyani", "Deviyani M.", "D.M.", "D. M."]
+
+"horton":
+  - firstname: ["Emma", "Emma R.", "E.R.", "E. R."]
+
+"barrington":
+  - firstname: ["Chloe", "Chloe L.", "C.L.", "C. L."]
+
+"koren":
+  - firstname: ["Itay", "I."]
+
+"d'alessandro":
+  - firstname: ["Angelo", "A."]
+
+"zimring":
+  - firstname: ["James", "James C.", "J.C.", "J. C."]
+
+"hansen":
+  - firstname: ["Kirk", "Kirk C.", "K.C.", "K. C."]
+
+"distefano":
+  - firstname: ["Johanna", "Johanna K.", "J.K.", "J. K."]
