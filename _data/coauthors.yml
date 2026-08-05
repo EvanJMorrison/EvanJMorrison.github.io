@@ -1,34 +1,29 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+# Maps last names in papers.bib to first-name variants and (optionally) a link.
+# al-folio uses this to render coauthor names consistently and hyperlink them.
+"rissland":
+  - firstname: ["Olivia", "Olivia S.", "O.S.", "O. S."]
+    url: https://medschool.cuanschutz.edu/rnabioscience/faculty/olivia-rissland
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"rao":
+  - firstname: ["Deviyani", "Deviyani M.", "D.M.", "D. M."]
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"horton":
+  - firstname: ["Emma", "Emma R.", "E.R.", "E. R."]
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"barrington":
+  - firstname: ["Chloe", "Chloe L.", "C.L.", "C. L."]
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"koren":
+  - firstname: ["Itay", "I."]
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"d'alessandro":
+  - firstname: ["Angelo", "A."]
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"zimring":
+  - firstname: ["James", "James C.", "J.C.", "J. C."]
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"hansen":
+  - firstname: ["Kirk", "Kirk C.", "K.C.", "K. C."]
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"distefano":
+  - firstname: ["Johanna", "Johanna K.", "J.K.", "J. K."]
