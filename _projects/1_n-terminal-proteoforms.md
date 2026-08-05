@@ -6,7 +6,7 @@ img: # e.g. assets/img/projects/proteoforms.jpg
 importance: 1
 category: research
 related_publications: true
-img: assets/img/projects/proteoform-diversity-fig2.png
+img: assets/img/projects/proteoform-diversity-fig21.png
 ---
 
 
@@ -20,7 +20,7 @@ This thread reviews where that diversity comes from and what it costs the cell {
 
 <div class="row justify-content-sm-center">
   <div class="col-sm-10 mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/projects/proteoform-diversity-fig2.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Sources of N-terminal proteoform diversity" %}
+    {% include figure.liquid loading="eager" path="assets/img/projects/proteoform-diversity-fig21.png" class="img-fluid rounded z-depth-1" zoomable=true alt="Sources of N-terminal proteoform diversity" %}
   </div>
 </div>
 <div class="caption">
