@@ -1,0 +1,7 @@
+{%- if include.book.cover -%}
+<img class="book-cover" src="{{ include.book.cover | relative_url }}" alt="Cover of {{ include.book.title | escape }}" loading="lazy" width="240" height="360">
+{%- elsif include.book.olid -%}
+<img class="book-cover" src="https://covers.openlibrary.org/b/olid/{{ include.book.olid }}-L.jpg?default=false" alt="Cover of {{ include.book.title | escape }}" loading="lazy" width="240" height="360">
+{%- elsif include.book.isbn -%}
+<img class="book-cover" src="https://covers.openlibrary.org/b/isbn/{{ include.book.isbn }}-L.jpg?default=false" alt="Cover of {{ include.book.title | escape }}" loading="lazy" width="240" height="360">
+{%- endif -%}

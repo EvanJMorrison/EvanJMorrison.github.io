@@ -1,19 +1,13 @@
 ---
 layout: page
 title: N-terminal proteoform diversity
-description: How do alternative N-termini arise and what are the consequences for protein fate?
-img: # e.g. assets/img/projects/proteoforms.jpg
+description: How different beginnings of a protein arise, and why those differences matter for protein fate.
 importance: 1
 category: research
+stage: PhD research · Rissland Lab · CU Anschutz
 related_publications: true
 ---
 
+A single gene can give rise to proteins with different N-termini through alternative translation initiation, processing, and modification. These differences can affect a protein's stability and function.
 
-
-A single gene can give rise to proteins with different N-termini — through alternative
-translation initiation, co-translational processing by methionine aminopeptidases, and
-downstream modification. These N-terminal differences are not cosmetic: they help
-determine whether a protein is stabilized or targeted for degradation.
-
-This thread reviews where that diversity comes from and what the consequences are for the cell {% cite morrison2025proteoform %}.
-
+My work with Olivia S. Rissland examines the generation and consequences of this diversity. Our 2025 article in *Cell Reports* brings together these questions about how proteins acquire different beginnings and what those differences mean for the cell {% cite morrison2025proteoform %}.

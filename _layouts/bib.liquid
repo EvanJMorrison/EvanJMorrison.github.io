@@ -188,6 +188,7 @@
     </div>
 
     <!-- Links/Buttons -->
+    {% if entry.summary %}<p class="publication-summary">{{ entry.summary }}</p>{% endif %}
     <div class="links">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
