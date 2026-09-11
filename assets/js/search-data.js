@@ -4,82 +4,138 @@ const ninja = document.querySelector('ninja-keys');
 // add the home and posts menu items
 ninja.data = [{
     id: "nav-about",
-    title: "about",
+    title: "About",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
+  },{id: "nav-research",
+          title: "Research",
+          description: "How cells control protein fate, from ribosomes to degradation signals.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/projects/";
           },
         },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "Peer-reviewed papers and preprints, most recent first.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-projects",
-          title: "projects",
-          description: "Research threads and tools I work on.",
+        },{id: "nav-blog",
+          title: "Blog",
+          description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/blog/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
+        },{id: "nav-books",
+          title: "Books",
+          description: "Book reviews and reading notes.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/books/";
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Education, research positions, publications, and teaching.",
+          description: "Research, education, fellowships, teaching, and service.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{id: "post-phd-completed",
+        },{id: "nav-contact",
+          title: "Contact",
+          description: "Get in touch about research, collaboration, and scientific exchange.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/contact/";
+          },
+        },{id: "post-joining-the-kostova-lab-at-stowers",
+        
+          title: "Joining the Kostova lab at Stowers",
+        
+        description: "Beginning my postdoctoral work on ribosome quality control.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/kostova-lab-stowers/";
+          
+        },
+      },{id: "post-phd-completed",
         
           title: "PhD completed",
         
-        description: "",
+        description: "Completing my PhD in Molecular Biology &amp; Biochemistry at CU Anschutz.",
         section: "Posts",
         handler: () => {
           
             window.location.href = "/blog/2025/phd/";
           
         },
+      },{id: "post-rising-stars-in-biomedical-sciences",
+        
+          title: "Rising Stars in Biomedical Sciences",
+        
+        description: "An invited research talk at Sanford Burnham Prebys.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2024/rising-stars-biomedical-sciences/";
+          
+        },
+      },{id: "post-research-presentation-award-at-sacnas",
+        
+          title: "Research presentation award at SACNAS",
+        
+        description: "Presenting my N-degron research at NDiSTEM 2023 in Portland.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/sacnas-research-presentation/";
+          
+        },
+      },{id: "post-hhmi-gilliam-fellowship",
+        
+          title: "HHMI Gilliam Fellowship",
+        
+        description: "A fellowship supporting my doctoral research on protein degradation.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/hhmi-gilliam-fellowship/";
+          
+        },
+      },{id: "post-nsf-graduate-research-fellowship",
+        
+          title: "NSF Graduate Research Fellowship",
+        
+        description: "NSF support for my PhD research on how protein sequence regulates gene expression.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2021/nsf-graduate-research-fellowship/";
+          
+        },
       },{id: "news-i-have-officially-earned-my-phd-in-molecular-biology",
           title: 'I have officially earned my PhD in Molecular Biology.',
           description: "",
-          section: "News",},{id: "projects-n-terminal-proteoform-diversity",
+          section: "News",},{id: "news-i-joined-the-kostova-lab-at-stowers-as-an-hhmi-gilliam-postdoctoral-research-fellow-read-more",
+          title: 'I joined the Kostova lab at Stowers as an HHMI Gilliam Postdoctoral Research...',
+          description: "",
+          section: "News",},{id: "projects-ribosome-and-protein-quality-control",
+          title: 'Ribosome and protein quality control',
+          description: "Investigating the quality control of defective large ribosomal subunit proteins in human cells.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/0_ribosome-quality-control/";
+            },},{id: "projects-n-terminal-proteoform-diversity",
           title: 'N-terminal proteoform diversity',
-          description: "How alternative N-termini arise and what they do to protein fate.",
+          description: "How different beginnings of a protein arise, and why those differences matter for protein fate.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_n-terminal-proteoforms/";
             },},{id: "projects-metap-dependent-n-degron-pathways",
           title: 'MetAP-dependent N-degron pathways',
-          description: "Identifying the machinery that reads N-terminal residues and sets protein half-life.",
+          description: "Connecting N-terminal processing with the recognition and degradation of proteins.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_n-degron-pathways/";
             },},{
@@ -94,7 +150,7 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%6D%6F%72%72%69%73%6F%6E.%6A.%65%76%61%6E@%67%6D%61%69%6C.%63%6F%6D", "_blank");
+          window.open("mailto:%45%6D%6F%72%72%69%73%6F%6E@%73%74%6F%77%65%72%73.%6F%72%67", "_blank");
         },
       },{
         id: 'social-github',
