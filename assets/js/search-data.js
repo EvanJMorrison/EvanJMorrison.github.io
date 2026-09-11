@@ -58,7 +58,12 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "news-nsf-graduate-research-fellowship",
+        },{id: "books-the-demon-haunted-world-science-as-a-candle-in-the-dark",
+          title: 'The Demon-Haunted World: Science as a Candle in the Dark',
+          description: "A worthwhile defense of science, but an incomplete account of scientific literacy and pseudoscience.",
+          section: "Books",handler: () => {
+              window.location.href = "/books/the-demon-haunted-world/";
+            },},{id: "news-nsf-graduate-research-fellowship",
           title: 'NSF Graduate Research Fellowship',
           description: "NSF support for my PhD research on how protein sequence regulates gene expression.",
           section: "News",handler: () => {
@@ -78,6 +83,11 @@ ninja.data = [{
           description: "An invited research talk at Sanford Burnham Prebys.",
           section: "News",handler: () => {
               window.location.href = "/news/2024/rising-stars-biomedical-sciences/";
+            },},{id: "news-hhmi-gilliam-fellowship-expands-to-a-postdoctoral-pilot",
+          title: 'HHMI Gilliam Fellowship expands to a postdoctoral pilot',
+          description: "Four years of support for my postdoctoral research.",
+          section: "News",handler: () => {
+              window.location.href = "/news/hhmi-gilliam-postdoctoral-pilot/";
             },},{id: "news-phd-completed",
           title: 'PhD completed',
           description: "Completing my PhD in Molecular Biology &amp; Biochemistry at CU Anschutz.",
