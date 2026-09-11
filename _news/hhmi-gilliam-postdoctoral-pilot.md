@@ -3,10 +3,9 @@ layout: news
 title: HHMI Gilliam Fellowship expands to a postdoctoral pilot
 permalink: /news/hhmi-gilliam-postdoctoral-pilot/
 description: Four years of support for my postdoctoral research.
-published: false
-# Add the announcement date before publishing; the pilot date is not yet confirmed.
-# date: YYYY-MM-DD
-# date_precision: month
+published: true
+date: 2025-07-01
+date_precision: month
 gallery: []
 ---
 

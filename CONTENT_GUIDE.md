@@ -80,6 +80,6 @@ The announcement texts are based on the supplied CV and use a contemporaneous vo
 
 The program description is based on [HHMI's Gilliam Fellows Program page](https://www.hhmi.org/programs/gilliam-fellows), which describes PhD support, professional development, advisor mentorship training, and an application for four further years of postdoctoral support.
 
-`_news/hhmi-gilliam-postdoctoral-pilot.md` is a completed draft based on your account of four years of personal postdoctoral funding. It stays unpublished until the original pilot announcement date is supplied. Add its date and appropriate date precision, then set `published: true`. The current HHMI page confirms the postdoctoral phase but does not establish the original pilot announcement date.
+`_news/hhmi-gilliam-postdoctoral-pilot.md` announces the pilot and your four years of postdoctoral funding. Its July 2025 announcement month was confirmed by you. The date field uses July 1 for sorting; the site displays only July 2025.
 
 Old milestone URLs under `/blog/` redirect to their corresponding News pages so existing links still work.
