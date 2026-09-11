@@ -64,7 +64,8 @@ Keep the other existing profile fields, including `more_info`. The `image` value
 2. Name it `short-book-title.md`.
 3. Supply the real title, author, publication year (`released`), review date (`date`), status, and your review.
 4. Set `published: true` when finished. Optional fields include `stars` (1–5, including halves), `finished`, and a local `cover` path. ISBN or Open Library ID can supply a remote cover instead. Add an optional `amazon_url` to link both the cover and a “View on Amazon” link on the review page.
-5. Commit it with the same branch-and-review process. It appears on Books and receives its own `/books/short-book-title/` page.
+5. Use `reviewed: YYYY-MM-01` to display a known review month without implying an exact day. Use `read_url` for a full-text link; the review page also links its cover there when no Amazon link is provided.
+6. Commit it with the same branch-and-review process. It appears on Books and receives its own `/books/short-book-title/` page.
 
 ## Update your CV
 

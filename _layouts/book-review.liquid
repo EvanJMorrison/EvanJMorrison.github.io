@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign cover_link = page.amazon_url | default: page.read_url %}
 <div class="post book-review">
   <header class="post-header">
     <a class="text-link" href="{{ '/books/' | relative_url }}">All books</a>
@@ -15,25 +16,33 @@ layout: default
     <p class="post-meta">
       {% if page.status %}{{ page.status | capitalize }}{% endif %}
       {% if page.stars %} · {{ page.stars }} / 5{% endif %}
+      {% if page.reviewed %} · Reviewed {{ page.reviewed | date: '%B %Y' }}{% endif %}
       {% if page.finished %} · Finished {{ page.finished | date: '%B %Y' }}{% endif %}
     </p>
   </header>
   <article class="post-content">
     {% if page.cover or page.olid or page.isbn %}
       <figure class="review-cover">
-        {% if page.amazon_url -%}
+        {% if cover_link -%}
           <a
-            href="{{ page.amazon_url | escape }}"
+            href="{{ cover_link | escape }}"
             rel="external noopener"
             target="_blank"
-            aria-label="View {{ page.title | escape }} on Amazon (opens in a new tab)"
+            aria-label="{% if page.amazon_url %}View {{ page.title | escape }} on Amazon{% else %}Read {{ page.title | escape }} online{% endif %} (opens in a new tab)"
           >
         {%- endif %}
         {% include book-cover.liquid book=page %}
-        {% if page.amazon_url %}</a>{% endif %}
+        {% if cover_link %}</a>{% endif %}
       </figure>
     {% endif %}
     {{ content }}
+    {% if page.read_url %}
+      <p>
+        <a class="text-link" href="{{ page.read_url | escape }}" rel="external noopener" target="_blank"
+          >Read the full book online<span class="sr-only"> (opens in a new tab)</span></a
+        >
+      </p>
+    {% endif %}
     {% if page.amazon_url %}
       <p>
         <a class="text-link" href="{{ page.amazon_url | escape }}" rel="external noopener" target="_blank"
