@@ -58,7 +58,17 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "books-the-demon-haunted-world-science-as-a-candle-in-the-dark",
+        },{id: "books-creating-black-americans-african-american-history-and-its-meanings-1619-to-the-present",
+          title: 'Creating Black Americans: African-American History and Its Meanings, 1619 to the Present',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/creating-black-americans/";
+            },},{id: "books-neo-colonialism-the-last-stage-of-imperialism",
+          title: 'Neo-Colonialism: The Last Stage of Imperialism',
+          description: "",
+          section: "Books",handler: () => {
+              window.location.href = "/books/neo-colonialism/";
+            },},{id: "books-the-demon-haunted-world-science-as-a-candle-in-the-dark",
           title: 'The Demon-Haunted World: Science as a Candle in the Dark',
           description: "A worthwhile defense of science, but an incomplete account of scientific literacy and pseudoscience.",
           section: "Books",handler: () => {
