@@ -11,21 +11,34 @@ layout: default
   {% if books.size > 0 %}
     <div class="book-list">
       {% for book in books %}
-      <article class="book-entry{% unless book.cover or book.olid or book.isbn %} without-cover{% endunless %}">
-        {% if book.cover or book.olid or book.isbn %}
-        <a class="book-cover-link" href="{{ book.url | relative_url }}" tabindex="-1" aria-hidden="true">
-          {% include book-cover.liquid book=book %}
-        </a>
-        {% endif %}
-        <div>
-          {% if book.status %}<p class="eyebrow">{{ book.status | capitalize }}</p>{% endif %}
-          <h2><a href="{{ book.url | relative_url }}">{{ book.title }}</a></h2>
-          <p class="book-author">{{ book.author }}{% if book.released %} · {{ book.released }}{% endif %}</p>
-          {% if book.stars %}<p class="book-rating">{{ book.stars }} / 5</p>{% endif %}
-          {% if book.description %}<p>{{ book.description }}</p>{% endif %}
-          <a class="text-link" href="{{ book.url | relative_url }}">Read review<span class="sr-only">: {{ book.title }}</span></a>
-        </div>
-      </article>
+        <article class="book-entry{% unless book.cover or book.olid or book.isbn %} without-cover{% endunless %}">
+          {% if book.cover or book.olid or book.isbn %}
+            <a class="book-cover-link" href="{{ book.url | relative_url }}" tabindex="-1" aria-hidden="true">
+              {% include book-cover.liquid book=book %}
+            </a>
+          {% endif %}
+          <div>
+            {% if book.status %}
+              <p class="eyebrow">{{ book.status | capitalize }}</p>
+            {% endif %}
+            <h2>
+              <a href="{{ book.url | relative_url }}">{{ book.title }}</a>
+            </h2>
+            <p class="book-author">
+              {{ book.author -}}
+              {%- if book.released %} · {{ book.released }}{% endif %}
+            </p>
+            {% if book.stars %}
+              <p class="book-rating">{{ book.stars }} / 5</p>
+            {% endif %}
+            {% if book.description %}
+              <p>{{ book.description }}</p>
+            {% endif %}
+            <a class="text-link" href="{{ book.url | relative_url }}"
+              >Read review<span class="sr-only">: {{ book.title }}</span></a
+            >
+          </div>
+        </article>
       {% endfor %}
     </div>
   {% else %}

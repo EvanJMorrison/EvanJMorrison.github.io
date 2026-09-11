@@ -14,50 +14,50 @@ cv:
       - company: Stowers Institute for Medical Research
         position: HHMI Gilliam Postdoctoral Research Fellow, Kostova Lab
         location: Kansas City, MO
-        start_date: '2026'
+        start_date: "2026"
         end_date: present
         highlights:
-          - 'Advisor: Kamena Kostova'
+          - "Advisor: Kamena Kostova"
           - Research on the role of the signalosome in the quality control of defective large ribosomal subunit proteins in human cells.
       - company: University of Colorado Anschutz Medical Campus
         position: Doctoral Researcher, Rissland Lab
         location: Aurora, CO
-        start_date: '2018'
-        end_date: '2025'
+        start_date: "2018"
+        end_date: "2025"
         highlights:
           - Discovery and characterization of a MetAP-dependent N-degron pathway.
           - Research on N-terminal proteoform diversity and 2A peptide-bond-skipping sequences.
       - company: University of Colorado Cancer Center
         position: Clinical Research Coordinator
         location: Aurora, CO
-        start_date: '2017-09'
-        end_date: '2018-08'
+        start_date: "2017-09"
+        end_date: "2018-08"
         highlights:
           - Assessed trial eligibility, obtained informed consent, and conducted research visits.
           - Documented adverse events and processed biospecimens for laboratory analysis.
       - company: National Jewish Health
         position: Laboratory Researcher, Center for Genes, Environment and Health
         location: Denver, CO
-        start_date: '2016-09'
-        end_date: '2017-09'
+        start_date: "2016-09"
+        end_date: "2017-09"
         highlights:
-          - 'Advisor: Johanna K. DiStefano'
+          - "Advisor: Johanna K. DiStefano"
           - Studied modulation of hepatic chemokine ligand 20 expression by miR-590.
       - company: University of Colorado School of Medicine
         position: RNA Bioscience Initiative Intern (REU)
         location: Aurora, CO
-        start_date: '2016-06'
-        end_date: '2016-08'
+        start_date: "2016-06"
+        end_date: "2016-08"
         highlights:
-          - 'Advisor: Jeffrey Kieft'
+          - "Advisor: Jeffrey Kieft"
           - Studied higher order structures in the 3′ UTR of a viral long noncoding RNA.
       - company: Metropolitan State University of Denver
         position: Student Research Assistant, Department of Chemistry
         location: Denver, CO
-        start_date: '2015-06'
-        end_date: '2016-06'
+        start_date: "2015-06"
+        end_date: "2016-06"
         highlights:
-          - 'Advisor: Megan Filbin-Wong'
+          - "Advisor: Megan Filbin-Wong"
           - Studied RNA structure in the cap-independent translation enhancer of blackcurrant reversion virus.
     Volunteer: []
     Education:
@@ -65,63 +65,85 @@ cv:
         location: Aurora, CO
         area: Molecular Biology & Biochemistry
         studyType: PhD
-        start_date: '2018'
-        end_date: '2025'
+        start_date: "2018"
+        end_date: "2025"
         highlights:
-          - 'Advisor: Olivia S. Rissland'
-          - 'Thesis project: Discovery and characterization of a MetAP-dependent N-degron pathway'
+          - "Advisor: Olivia S. Rissland"
+          - "Thesis project: Discovery and characterization of a MetAP-dependent N-degron pathway"
       - institution: Metropolitan State University of Denver
         location: Denver, CO
         area: Chemistry & Philosophy
         studyType: BS in Chemistry; BA in Philosophy
-        start_date: '2011'
-        end_date: '2016'
+        start_date: "2011"
+        end_date: "2016"
         highlights:
-          - 'Research advisor: Megan Filbin-Wong'
+          - "Research advisor: Megan Filbin-Wong"
     Fellowships and Research Support:
       - label: HHMI Gilliam Fellowship · September 2022 onward
-        details: 'Howard Hughes Medical Institute. GT14919. Project: A tripeptide motif induces rapid protein decay in human cells.'
+        details: "Howard Hughes Medical Institute. GT14919. Project: A tripeptide motif induces rapid protein decay in human cells."
       - label: NSF Graduate Research Fellowship · June 2021–August 2022
-        details: 'National Science Foundation. GRFP-2020300571. Project: Primary protein sequence regulates gene expression.'
+        details: "National Science Foundation. GRFP-2020300571. Project: Primary protein sequence regulates gene expression."
       - label: NIH T32 Training Fellowship · May 2020–April 2021
-        details: 'NIGMS. T32-GM136444. Project: Amino acid concentration influences ORF dependent mRNA stability.'
+        details: "NIGMS. T32-GM136444. Project: Amino acid concentration influences ORF dependent mRNA stability."
     Awards:
       - title: AAAS/Science Program for Excellence in Science nomination
-        date: '2025'
+        date: "2025"
         awarder: University of Colorado Anschutz Medical Campus
         summary: Nominated by Jennifer Richer, Dean of the CU Anschutz Graduate School.
       - title: Rising Stars in Biomedical Sciences
-        date: '2024'
+        date: "2024"
         awarder: Sanford Burnham Prebys
         summary: Invited speaker at the 2024 SEP Rising Stars in Biomedical Sciences program.
       - title: Outstanding Research Presentation
-        date: '2023'
+        date: "2023"
         awarder: SACNAS NDiSTEM
         summary: Cell/Molecular Biology and Developmental Biology; Portland, Oregon.
       - title: SACNAS NDiSTEM Travel Scholarship
-        date: '2023'
+        date: "2023"
         awarder: SACNAS
       - title: RNA Bioscience Initiative Academic Enrichment Award
-        date: '2018'
+        date: "2018"
         awarder: University of Colorado Anschutz Medical Campus
       - title: Outstanding Student of the Year nomination
-        date: '2016'
+        date: "2016"
         awarder: Metropolitan State University of Denver, College of Letters, Arts and Sciences
     Skills:
       - name: Molecular biology and cell culture
-        keywords: [Molecular cloning, Primer and G-block design, DNA and RNA purification, Mammalian cell culture, Transfection, Transduction, RT-qPCR, siRNA, miRNA]
+        keywords:
+          [
+            Molecular cloning,
+            Primer and G-block design,
+            DNA and RNA purification,
+            Mammalian cell culture,
+            Transfection,
+            Transduction,
+            RT-qPCR,
+            siRNA,
+            miRNA,
+          ]
       - name: Protein and RNA biochemistry
-        keywords: [Western blotting, Immunoprecipitation, Ribosome fractionation and purification, Luciferase assays, In vitro transcription, In vitro translation, SHAPE and chemical probing, Gel and capillary electrophoresis, LC-MS/MS]
+        keywords:
+          [
+            Western blotting,
+            Immunoprecipitation,
+            Ribosome fractionation and purification,
+            Luciferase assays,
+            In vitro transcription,
+            In vitro translation,
+            SHAPE and chemical probing,
+            Gel and capillary electrophoresis,
+            LC-MS/MS,
+          ]
       - name: Genetic perturbation
         keywords: [CRISPR knockout, CRISPRi, CRISPRa]
     Teaching:
-      - label: '2022 · Graduate teaching assistant, CU Anschutz'
+      - label: "2022 · Graduate teaching assistant, CU Anschutz"
         details: Bioinformatics and Statistics (MOLB 7950); Foundations in Biomedical Sciences (IDPT 7806).
-      - label: '2016 · Supplemental instructor, MSU Denver'
+      - label: "2016 · Supplemental instructor, MSU Denver"
         details: Biochemistry I (CHE 4310).
-      - label: '2015 · Supplemental instructor, MSU Denver'
+      - label: "2015 · Supplemental instructor, MSU Denver"
         details: Analytical Chemistry (CHE 3000).
-      - label: '2015 · Teaching assistant, MSU Denver'
+      - label: "2015 · Teaching assistant, MSU Denver"
         details: Biochemistry Laboratory (CHE 4350).
     Mentoring:
       - label: Undergraduate researchers
@@ -129,22 +151,22 @@ cv:
       - label: Professional research staff
         details: Emma Horton (2022).
     Selected Talks:
-      - label: 'May 2024 · Sanford Burnham Prebys, La Jolla'
-        details: 'Invited speaker, Rising Stars in Biomedical Sciences: UBR4 regulates a MetAP2-dependent Arg/N-degron pathway.'
-      - label: 'October 2023 · SACNAS NDiSTEM, Portland'
-        details: 'Tying up loose ends: Characterization of a novel N-degron pathway in humans. Awarded Outstanding Research Presentation.'
-      - label: 'April 2021 · MSU Denver Department of Chemistry'
-        details: 'Invited speaker: Primary protein sequence regulates gene expression.'
+      - label: "May 2024 · Sanford Burnham Prebys, La Jolla"
+        details: "Invited speaker, Rising Stars in Biomedical Sciences: UBR4 regulates a MetAP2-dependent Arg/N-degron pathway."
+      - label: "October 2023 · SACNAS NDiSTEM, Portland"
+        details: "Tying up loose ends: Characterization of a novel N-degron pathway in humans. Awarded Outstanding Research Presentation."
+      - label: "April 2021 · MSU Denver Department of Chemistry"
+        details: "Invited speaker: Primary protein sequence regulates gene expression."
     Service and Outreach:
-      - label: '2022–2025 · RNA Bioscience Initiative Summer Internship Program'
+      - label: "2022–2025 · RNA Bioscience Initiative Summer Internship Program"
         details: Admissions committee reviewer.
-      - label: '2021–2023 · Molecular Biology Graduate Advisory Committee'
+      - label: "2021–2023 · Molecular Biology Graduate Advisory Committee"
         details: Student representative, CU Anschutz.
-      - label: '2020–2023 · Diversity, Equity and Anti-Racism Recruitment Committee'
+      - label: "2020–2023 · Diversity, Equity and Anti-Racism Recruitment Committee"
         details: Co-chair, Biochemistry and Molecular Genetics, CU Anschutz.
-      - label: '2021–2022 · WiSTEM'
+      - label: "2021–2022 · WiSTEM"
         details: Ally Coordinator, CU Anschutz.
-      - label: '2020–2022 · NSF Graduate Research Fellowship Review Committee'
+      - label: "2020–2022 · NSF Graduate Research Fellowship Review Committee"
         details: Reviewer, CU Anschutz.
       - label: Community mentoring and outreach
         details: Aurora Youth Options (2012–2014), The Blue Bench (2019–2021), Bryant Webster STEM Scholar Mentor (2020–2023), and CC2STEM Mentor (2023).

@@ -15,6 +15,7 @@ pagination:
     before: 1
     after: 2
 ---
+
 <div class="post journal">
   <header class="post-header">
     <p class="eyebrow">{{ site.blog_name }}</p>

@@ -1,15 +1,25 @@
 {% if page.gallery.size > 0 %}
-<section class="post-gallery-section" aria-label="{{ page.gallery_title | default: 'Photos' | escape }}">
-  <h2>{{ page.gallery_title | default: 'Photos' }}</h2>
-  <div class="post-gallery">
-    {% for photo in page.gallery %}
-      <figure>
-        <a href="{{ photo.path | relative_url }}" aria-label="View full-size photo: {{ photo.alt | escape }}">
-          <img src="{{ photo.path | relative_url }}" alt="{{ photo.alt | escape }}" loading="lazy" decoding="async"{% if photo.width and photo.height %} width="{{ photo.width }}" height="{{ photo.height }}"{% endif %}>
-        </a>
-        {% if photo.caption %}<figcaption>{{ photo.caption | escape }}</figcaption>{% endif %}
-      </figure>
-    {% endfor %}
-  </div>
-</section>
+  <section class="post-gallery-section" aria-label="{{ page.gallery_title | default: 'Photos' | escape }}">
+    <h2>{{ page.gallery_title | default: 'Photos' }}</h2>
+    <div class="post-gallery">
+      {% for photo in page.gallery %}
+        <figure>
+          <a href="{{ photo.path | relative_url }}" aria-label="View full-size photo: {{ photo.alt | escape }}">
+            <img
+              src="{{ photo.path | relative_url }}"
+              alt="{{ photo.alt | escape }}"
+              loading="lazy"
+              decoding="async"
+              {% if photo.width and photo.height %}
+                width="{{ photo.width }}" height="{{ photo.height }}"
+              {% endif %}
+            >
+          </a>
+          {% if photo.caption %}
+            <figcaption>{{ photo.caption | escape }}</figcaption>
+          {% endif %}
+        </figure>
+      {% endfor %}
+    </div>
+  </section>
 {% endif %}

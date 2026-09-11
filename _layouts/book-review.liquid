@@ -5,8 +5,13 @@ layout: default
   <header class="post-header">
     <a class="text-link" href="{{ '/books/' | relative_url }}">All books</a>
     <h1 class="post-title">{{ page.title }}</h1>
-    <p class="book-author">{{ page.author }}{% if page.released %} · {{ page.released }}{% endif %}</p>
-    {% if page.description %}<p class="post-description">{{ page.description }}</p>{% endif %}
+    <p class="book-author">
+      {{ page.author -}}
+      {%- if page.released %} · {{ page.released }}{% endif %}
+    </p>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
     <p class="post-meta">
       {% if page.status %}{{ page.status | capitalize }}{% endif %}
       {% if page.stars %} · {{ page.stars }} / 5{% endif %}
@@ -14,7 +19,9 @@ layout: default
     </p>
   </header>
   <article class="post-content">
-    {% if page.cover or page.olid or page.isbn %}<figure class="review-cover">{% include book-cover.liquid book=page %}</figure>{% endif %}
+    {% if page.cover or page.olid or page.isbn %}
+      <figure class="review-cover">{% include book-cover.liquid book=page %}</figure>
+    {% endif %}
     {{ content }}
   </article>
   {% if site.giscus and page.giscus_comments %}{% include giscus.liquid %}{% endif %}
