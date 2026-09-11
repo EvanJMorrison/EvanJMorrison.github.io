@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<div class="post">
+  <header class="post-header">
+    <p class="eyebrow"><a href="{{ '/news/' | relative_url }}">News</a></p>
+    <h1 class="post-title">{{ page.title }}</h1>
+    <p class="post-meta">{% include display-date.liquid item=page %}</p>
+    {% if page.description %}
+      <p class="post-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+  <article class="post-content">
+    {{ content }}
+    {% include post-gallery.liquid %}
+  </article>
+  <p><a class="text-link" href="{{ '/news/' | relative_url }}">All news</a></p>
+</div>

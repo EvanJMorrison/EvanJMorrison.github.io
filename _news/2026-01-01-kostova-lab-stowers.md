@@ -1,15 +1,14 @@
 ---
-layout: post
+layout: news
+permalink: /news/2026/kostova-lab-stowers/
 title: Joining the Kostova lab at Stowers
 date: 2026-01-01
 date_precision: year
 description: Beginning my postdoctoral work on ribosome quality control.
-categories: [milestones]
-related_posts: false
 gallery: []
 ---
 
-In 2026, I joined **Kamena Kostova's lab at the Stowers Institute for Medical Research** in Kansas City as an HHMI Gilliam Postdoctoral Research Fellow.
+I've joined **Kamena Kostova's lab at the Stowers Institute for Medical Research** in Kansas City as an HHMI Gilliam Postdoctoral Research Fellow.
 
 My current research focuses on ribosome quality control, including the quality control of defective large ribosomal subunit proteins in human cells.
 

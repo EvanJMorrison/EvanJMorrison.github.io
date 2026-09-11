@@ -103,7 +103,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # -----------------------------------------------------------------------------
 
 blog_name: itsapriori # blog_name will be displayed in your blog page
-blog_description: "Milestones in science, notes from my PhD and postdoc, and ideas beyond the lab."
+blog_description: "Essays, reflections, and ideas beyond the lab."
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -163,8 +163,6 @@ collections:
     output: true
     permalink: /books/:name/
   news:
-    defaults:
-      layout: post
     output: true
   projects:
     output: true
