@@ -42,6 +42,8 @@ No review content, ratings, or reading dates have been invented. The Books page 
 
 The complete downloadable CV is `assets/pdf/EJM_curriculum_vitae.pdf`. The web summary is `_data/cv.yml`; update both when your record changes. Publications are managed separately in `_bibliography/papers.bib`.
 
+The Validate CV workflow checks that the PDF is readable, belongs to the named CV owner, and matches the links used by the site. It runs on pull requests as well as updates to the default branch. The web CV YAML follows the website layout’s schema; it is not an input to the standalone RenderCV PDF generator. Your supplied PDF is never regenerated or overwritten by this workflow.
+
 ## Content sources and dates
 
 The new milestone texts are factual starter posts based on the CV supplied in September 2026. Personal reflections and photographs still need your input. June 2021 and September 2022 are the fellowship support start months listed in that CV, not independently verified award-notification dates. The October 24, 2025 PhD announcement date is retained from your existing post. The 2026 postdoc entry shows only the year because the CV does not specify a month.
