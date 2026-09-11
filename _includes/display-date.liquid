@@ -1,0 +1,7 @@
+{%- if include.item.date_precision == 'year' -%}
+  {{- include.item.date | date: '%Y' -}}
+{%- elsif include.item.date_precision == 'month' -%}
+  {{- include.item.date | date: '%B %Y' -}}
+{%- else -%}
+  {{- include.item.date | date: '%B %-d, %Y' -}}
+{%- endif -%}

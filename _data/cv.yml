@@ -1,92 +1,172 @@
-# ---------------------------------------------------------------------------
-# CV data (rendercv format) -- rendered at /cv/
-#
-# Section names below are NOT free-form. _layouts/cv.liquid looks for exact
-# titles: Experience, Volunteer, Education, Publications, Skills, Languages,
-# Interests, Certificates, Projects, References, Awards. Renaming one makes it
-# fall through to a plain generic renderer -- or crash, in the case of
-# Experience/Volunteer, which the template always merges together.
-#
-# LINES MARKED TODO ARE PLACEHOLDERS -- fill in before sharing the page.
-# Entries marked [inferred] were reconstructed from your publication record.
-# ---------------------------------------------------------------------------
+# Transcribed from the CV supplied by Evan Morrison, September 2026.
+# The PDF provides the complete presentation and publication record.
 cv:
   name: Evan J. Morrison
-  label: Postdoctoral Researcher, Molecular Biology & Biochemistry
-  email: morrison.j.evan@gmail.com
-  location: Kansas City, Missouri, USA
+  label: HHMI Gilliam Postdoctoral Research Fellow
+  email: Emorrison@stowers.org
+  location: Kansas City, Missouri
   summary: >
-    Molecular biologist studying translation-coupled protein quality control.
-    My work centers on N-terminal processing, N-terminal proteoform diversity,
-    and N-degron pathways -- how N-terminal residue features are generated and
-    recognized to set protein half-life.
-
+    Molecular biologist studying ribosome quality control in the Kostova lab at
+    the Stowers Institute for Medical Research. PhD research examined
+    MetAP-dependent N-degron pathways and N-terminal proteoform diversity.
   sections:
-    # Must be called "Experience". Volunteer must exist as a list, even empty:
-    # the template concatenates the two and errors if either is missing.
     Experience:
       - company: Stowers Institute for Medical Research
-        position: Postdoctoral Researcher
+        position: HHMI Gilliam Postdoctoral Research Fellow, Kostova Lab
         location: Kansas City, MO
-        url: https://www.stowers.org/
-        start_date: 2025 # TODO confirm
+        start_date: "2026"
         end_date: present
         highlights:
-          - "TODO: one or two lines on your current research focus."
-
+          - "Advisor: Kamena Kostova"
+          - Research on the role of the signalosome in the quality control of defective large ribosomal subunit proteins in human cells.
       - company: University of Colorado Anschutz Medical Campus
-        position: Graduate Research Assistant, Rissland Lab
+        position: Doctoral Researcher, Rissland Lab
         location: Aurora, CO
-        # start_date omitted on purpose -- add it and the year badge appears
-        end_date: 2025
+        start_date: "2018"
+        end_date: "2025"
         highlights:
-          - Studied N-terminal proteoform diversity and MetAP-dependent N-degron pathways.
-          - Contributed to systematic characterization of 2A peptide-bond-skipping sequences.
-
-      # [inferred] from your 2019-2021 red blood cell metabolomics papers.
-      # Confirm the title and lab, or delete this entry.
-      - company: University of Colorado Anschutz Medical Campus
-        position: Research Assistant, Biochemistry and Molecular Genetics # TODO confirm
+          - Discovery and characterization of a MetAP-dependent N-degron pathway.
+          - Research on N-terminal proteoform diversity and 2A peptide-bond-skipping sequences.
+      - company: University of Colorado Cancer Center
+        position: Clinical Research Coordinator
         location: Aurora, CO
+        start_date: "2017-09"
+        end_date: "2018-08"
         highlights:
-          - "TODO: confirm role and dates, or remove."
-
+          - Assessed trial eligibility, obtained informed consent, and conducted research visits.
+          - Documented adverse events and processed biospecimens for laboratory analysis.
+      - company: National Jewish Health
+        position: Laboratory Researcher, Center for Genes, Environment and Health
+        location: Denver, CO
+        start_date: "2016-09"
+        end_date: "2017-09"
+        highlights:
+          - "Advisor: Johanna K. DiStefano"
+          - Studied modulation of hepatic chemokine ligand 20 expression by miR-590.
+      - company: University of Colorado School of Medicine
+        position: RNA Bioscience Initiative Intern (REU)
+        location: Aurora, CO
+        start_date: "2016-06"
+        end_date: "2016-08"
+        highlights:
+          - "Advisor: Jeffrey Kieft"
+          - Studied higher order structures in the 3′ UTR of a viral long noncoding RNA.
+      - company: Metropolitan State University of Denver
+        position: Student Research Assistant, Department of Chemistry
+        location: Denver, CO
+        start_date: "2015-06"
+        end_date: "2016-06"
+        highlights:
+          - "Advisor: Megan Filbin-Wong"
+          - Studied RNA structure in the cap-independent translation enhancer of blackcurrant reversion virus.
     Volunteer: []
-
     Education:
       - institution: University of Colorado Anschutz Medical Campus
         location: Aurora, CO
-        url: https://medschool.cuanschutz.edu/
         area: Molecular Biology & Biochemistry
         studyType: PhD
-        end_date: 2025
+        start_date: "2018"
+        end_date: "2025"
         highlights:
           - "Advisor: Olivia S. Rissland"
-          - "Dissertation: TODO -- add title"
-
+          - "Thesis project: Discovery and characterization of a MetAP-dependent N-degron pathway"
       - institution: Metropolitan State University of Denver
         location: Denver, CO
-        url: https://www.msudenver.edu/
-        area: Philosophy and Chemistry
-        studyType: BS # TODO confirm degree designation
-
-    # The /publications/ page is generated separately from papers.bib.
-    # Keep this to selected works only, or delete the section entirely.
-    # Field names matter here: the template reads `date` and `publisher`,
-    # not `year` and `journal`.
-    Publications:
-      - title: The generation and consequences of N-terminal proteoform diversity
-        publisher: Cell Reports
-        date: 2025
-        url: https://doi.org/10.1016/j.celrep.2025.116275
-
-      - title: UBR4 regulates a MetAP-dependent N-degron pathway
-        publisher: bioRxiv (preprint)
-        date: 2024
-        url: https://doi.org/10.1101/2024.10.03.616566
-
+        area: Chemistry & Philosophy
+        studyType: BS in Chemistry; BA in Philosophy
+        start_date: "2011"
+        end_date: "2016"
+        highlights:
+          - "Research advisor: Megan Filbin-Wong"
+    Fellowships and Research Support:
+      - label: HHMI Gilliam Fellowship · September 2022 onward
+        details: "Howard Hughes Medical Institute. GT14919. Project: A tripeptide motif induces rapid protein decay in human cells."
+      - label: NSF Graduate Research Fellowship · June 2021–August 2022
+        details: "National Science Foundation. GRFP-2020300571. Project: Primary protein sequence regulates gene expression."
+      - label: NIH T32 Training Fellowship · May 2020–April 2021
+        details: "NIGMS. T32-GM136444. Project: Amino acid concentration influences ORF dependent mRNA stability."
+    Awards:
+      - title: AAAS/Science Program for Excellence in Science nomination
+        date: "2025"
+        awarder: University of Colorado Anschutz Medical Campus
+        summary: Nominated by Jennifer Richer, Dean of the CU Anschutz Graduate School.
+      - title: Rising Stars in Biomedical Sciences
+        date: "2024"
+        awarder: Sanford Burnham Prebys
+        summary: Invited speaker at the 2024 SEP Rising Stars in Biomedical Sciences program.
+      - title: Outstanding Research Presentation
+        date: "2023"
+        awarder: SACNAS NDiSTEM
+        summary: Cell/Molecular Biology and Developmental Biology; Portland, Oregon.
+      - title: SACNAS NDiSTEM Travel Scholarship
+        date: "2023"
+        awarder: SACNAS
+      - title: RNA Bioscience Initiative Academic Enrichment Award
+        date: "2018"
+        awarder: University of Colorado Anschutz Medical Campus
+      - title: Outstanding Student of the Year nomination
+        date: "2016"
+        awarder: Metropolitan State University of Denver, College of Letters, Arts and Sciences
     Skills:
-      - name: Molecular Biology
-        keywords: [TODO, add, your, techniques]
-      - name: Computational
-        keywords: [TODO, e.g. Python, R, ribosome profiling analysis]
+      - name: Molecular biology and cell culture
+        keywords:
+          [
+            Molecular cloning,
+            Primer and G-block design,
+            DNA and RNA purification,
+            Mammalian cell culture,
+            Transfection,
+            Transduction,
+            RT-qPCR,
+            siRNA,
+            miRNA,
+          ]
+      - name: Protein and RNA biochemistry
+        keywords:
+          [
+            Western blotting,
+            Immunoprecipitation,
+            Ribosome fractionation and purification,
+            Luciferase assays,
+            In vitro transcription,
+            In vitro translation,
+            SHAPE and chemical probing,
+            Gel and capillary electrophoresis,
+            LC-MS/MS,
+          ]
+      - name: Genetic perturbation
+        keywords: [CRISPR knockout, CRISPRi, CRISPRa]
+    Teaching:
+      - label: "2022 · Graduate teaching assistant, CU Anschutz"
+        details: Bioinformatics and Statistics (MOLB 7950); Foundations in Biomedical Sciences (IDPT 7806).
+      - label: "2016 · Supplemental instructor, MSU Denver"
+        details: Biochemistry I (CHE 4310).
+      - label: "2015 · Supplemental instructor, MSU Denver"
+        details: Analytical Chemistry (CHE 3000).
+      - label: "2015 · Teaching assistant, MSU Denver"
+        details: Biochemistry Laboratory (CHE 4350).
+    Mentoring:
+      - label: Undergraduate researchers
+        details: Laura Baquero (2015–2022), Adina Abudushalamu (2022), Emily Allen (2023), Edgar Provencio (2023–2024), and Tan Hyunh (2024–2025).
+      - label: Professional research staff
+        details: Emma Horton (2022).
+    Selected Talks:
+      - label: "May 2024 · Sanford Burnham Prebys, La Jolla"
+        details: "Invited speaker, Rising Stars in Biomedical Sciences: UBR4 regulates a MetAP2-dependent Arg/N-degron pathway."
+      - label: "October 2023 · SACNAS NDiSTEM, Portland"
+        details: "Tying up loose ends: Characterization of a novel N-degron pathway in humans. Awarded Outstanding Research Presentation."
+      - label: "April 2021 · MSU Denver Department of Chemistry"
+        details: "Invited speaker: Primary protein sequence regulates gene expression."
+    Service and Outreach:
+      - label: "2022–2025 · RNA Bioscience Initiative Summer Internship Program"
+        details: Admissions committee reviewer.
+      - label: "2021–2023 · Molecular Biology Graduate Advisory Committee"
+        details: Student representative, CU Anschutz.
+      - label: "2020–2023 · Diversity, Equity and Anti-Racism Recruitment Committee"
+        details: Co-chair, Biochemistry and Molecular Genetics, CU Anschutz.
+      - label: "2021–2022 · WiSTEM"
+        details: Ally Coordinator, CU Anschutz.
+      - label: "2020–2022 · NSF Graduate Research Fellowship Review Committee"
+        details: Reviewer, CU Anschutz.
+      - label: Community mentoring and outreach
+        details: Aurora Youth Options (2012–2014), The Blue Bench (2019–2021), Bryant Webster STEM Scholar Mentor (2020–2023), and CC2STEM Mentor (2023).

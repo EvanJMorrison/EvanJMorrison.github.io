@@ -1,16 +1,15 @@
 ---
 layout: page
-title: Mammalian N-degron pathways
-description: Identifying the machinery that reads N-terminal residues and sets protein half-life.
-img: # e.g. assets/img/projects/ndegron.jpg
+title: MetAP-dependent N-degron pathways
+description: Connecting N-terminal processing with the recognition and degradation of proteins.
 importance: 2
 category: research
+stage: PhD research · Rissland Lab · CU Anschutz
 related_publications: true
-img: assets/img/projects/proteoform-diversity-fig21.png
 ---
 
-<!-- DRAFT: content below is drawn only from published work. Edit freely. -->
+My PhD thesis project was **Discovery and characterization of a MetAP-dependent N-degron pathway**, advised by Olivia S. Rissland at the University of Colorado Anschutz Medical Campus.
 
-N-degron pathways couple the identity of a protein's N-terminal residue to its rate of 
-turnover (typically) by the ubiquitin–proteasome system. During my PhD in the Rissland lab, I identified 
-that the DOC2 domain of the SIFI complex regulates position 3 Arg/Lys N-degrons in a MetAP-dependent manner. 
+This work investigated how methionine aminopeptidase processing and N-terminal sequence features connect to protein degradation. Our preprint, _UBR4 regulates a MetAP-dependent N-degron pathway_, describes this research {% cite morrison2024ubr4 %}.
+
+This is the foundation for my broader interest in how cells identify proteins for turnover.

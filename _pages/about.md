@@ -1,39 +1,42 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: Molecular Biology & Biochemistry · Proteostasis · N-degron pathways
-
+subtitle: Molecular biologist · Ribosome quality control · Protein fate
 profile:
   align: right
   image: evan_profile.jpg
-  image_circular: false # crops the image to make it circular
+  alt: Evan J. Morrison
+  image_circular: false
   more_info: >
-    <p>Postdoctoral Researcher</p>
-    <p>Stowers Institute for Medical Research</p>
-    <p>Kansas City, Missouri </p>
-    <p><a href="mailto:morrison.j.evan@gmail.com">morrison.j.evan@gmail.com</a></p>
-
-selected_papers: true 
+    <p>HHMI Gilliam Postdoctoral Research Fellow</p>
+    <p>Kostova Lab<br>Stowers Institute for Medical Research</p>
+    <p>Kansas City, Missouri</p>
+selected_papers: true
 social: false
-
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
+  enabled: false
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  scrollable: false
+  limit: 3
 ---
 
-I’m Evan J. Morrison, a molecular biologist interested in how cells control protein fate through
-translation-coupled quality control and the ubiquitin–proteasome system. My work focuses on
-N-terminal processing and N-degron pathways, including how specific N-terminal residue features
-are generated and recognized to regulate turnover.
+<p class="intro-lead">I study how cells recognize and respond to problems in protein production.</p>
 
-I earned my Ph.D. in Molecular Biology & Biochemistry at the University of Colorado Anschutz Medical Campus,
-and I’m currently a postdoctoral researcher at the Stowers Institute for Medical Research.
+I'm Evan J. Morrison, a postdoctoral researcher in the **Kostova lab at the Stowers Institute for Medical Research**. My current work focuses on ribosome quality control and the quality control of defective large ribosomal subunit proteins in human cells.
 
-On this site you can find selected papers, projects, and ways to get in touch.
+I earned my PhD in Molecular Biology & Biochemistry at the University of Colorado Anschutz Medical Campus, where I worked with Olivia S. Rissland on how the beginnings of proteins influence their degradation. That work on N-degron pathways and N-terminal proteoform diversity continues to inform the questions I ask about protein fate.
+
+My undergraduate training spans **chemistry and philosophy**. Alongside my research, this site is a place for milestones from my scientific life, writing, and book reviews.
+
+<div class="profile-actions">
+  <a class="site-button" href="{{ '/projects/' | relative_url }}">Explore my research</a>
+  <a class="site-button secondary" href="{{ '/cv/' | relative_url }}">View CV</a>
+  <a class="text-link" href="mailto:Emorrison@stowers.org">Get in touch</a>
+</div>
+
+<div class="recognition-strip" aria-label="Selected fellowships">
+  <span>HHMI Gilliam Fellow <small>since 2022</small></span>
+  <span>NSF Graduate Research Fellow <small>2021–2022</small></span>
+</div>
