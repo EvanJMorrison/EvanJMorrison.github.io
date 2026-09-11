@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | relative_url }}">
+    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}">
+    <meta name="robots" content="noindex">
+    <title>
+      Announcement moved |
+      {{ site.first_name }}
+      {{ site.last_name }}
+    </title>
+  </head>
+  <body>
+    <p>This announcement has moved to News. <a href="{{ page.redirect_to | relative_url }}">Continue to the announcement</a>.</p>
+  </body>
+</html>

@@ -9,7 +9,7 @@ stage: Current work · Kostova Lab · Stowers Institute
 
 ## Current research
 
-I am an HHMI Gilliam Postdoctoral Research Fellow in Kamena Kostova's lab at the Stowers Institute for Medical Research. My research focuses on ribosome quality control, including the role of the signalosome in the quality control of defective large ribosomal subunit proteins in human cells.
+I am an HHMI Gilliam Postdoctoral Research Fellow in Kamena Kostova's lab at the Stowers Institute for Medical Research. My research focuses on ribosome and protein quality control: how human cells recognize and respond to problems in protein production.
 
 The question connecting my current and previous research is how cells recognize proteins that need to be removed, and how that recognition is coupled to degradation.
 
