@@ -12,6 +12,8 @@ description: "Your central takeaway in one sentence."
 # Optional local cover: /assets/img/books/book-cover.jpg
 # cover: /assets/img/books/book-cover.jpg
 # Alternatively use an Open Library ID (olid) or ISBN (isbn).
+# Optional purchase link, displayed on the review page:
+# amazon_url: https://www.amazon.com/dp/BOOK_ASIN
 categories: [books]
 published: false
 ---

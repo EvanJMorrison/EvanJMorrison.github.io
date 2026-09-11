@@ -20,9 +20,27 @@ layout: default
   </header>
   <article class="post-content">
     {% if page.cover or page.olid or page.isbn %}
-      <figure class="review-cover">{% include book-cover.liquid book=page %}</figure>
+      <figure class="review-cover">
+        {% if page.amazon_url -%}
+          <a
+            href="{{ page.amazon_url | escape }}"
+            rel="external noopener"
+            target="_blank"
+            aria-label="View {{ page.title | escape }} on Amazon (opens in a new tab)"
+          >
+        {%- endif %}
+        {% include book-cover.liquid book=page %}
+        {% if page.amazon_url %}</a>{% endif %}
+      </figure>
     {% endif %}
     {{ content }}
+    {% if page.amazon_url %}
+      <p>
+        <a class="text-link" href="{{ page.amazon_url | escape }}" rel="external noopener" target="_blank"
+          >View on Amazon<span class="sr-only"> (opens in a new tab)</span></a
+        >
+      </p>
+    {% endif %}
   </article>
   {% if site.giscus and page.giscus_comments %}{% include giscus.liquid %}{% endif %}
 </div>

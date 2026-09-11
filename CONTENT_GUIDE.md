@@ -63,7 +63,7 @@ Keep the other existing profile fields, including `more_info`. The `image` value
 1. Copy `_content_templates/book-review.md` into `_books`.
 2. Name it `short-book-title.md`.
 3. Supply the real title, author, publication year (`released`), review date (`date`), status, and your review.
-4. Set `published: true` when finished. Optional fields include `stars` (1–5, including halves), `finished`, and a local `cover` path. ISBN or Open Library ID can supply a remote cover instead.
+4. Set `published: true` when finished. Optional fields include `stars` (1–5, including halves), `finished`, and a local `cover` path. ISBN or Open Library ID can supply a remote cover instead. Add an optional `amazon_url` to link both the cover and a “View on Amazon” link on the review page.
 5. Commit it with the same branch-and-review process. It appears on Books and receives its own `/books/short-book-title/` page.
 
 ## Update your CV
@@ -80,6 +80,6 @@ The announcement texts are based on the supplied CV and use a contemporaneous vo
 
 The program description is based on [HHMI's Gilliam Fellows Program page](https://www.hhmi.org/programs/gilliam-fellows), which describes PhD support, professional development, advisor mentorship training, and an application for four further years of postdoctoral support.
 
-`_news/hhmi-gilliam-postdoctoral-pilot.md` is a completed draft based on your account of four years of personal postdoctoral funding. It stays unpublished until the original pilot announcement date is supplied. Add its date and appropriate date precision, then set `published: true`. The current HHMI page confirms the postdoctoral phase but does not establish the original pilot announcement date.
+`_news/hhmi-gilliam-postdoctoral-pilot.md` announces the pilot and your four years of postdoctoral funding. Its July 2025 announcement month was confirmed by you. The date field uses July 1 for sorting; the site displays only July 2025.
 
 Old milestone URLs under `/blog/` redirect to their corresponding News pages so existing links still work.
