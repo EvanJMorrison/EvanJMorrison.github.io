@@ -4,6 +4,8 @@ title: "Book title"
 author: "Author name"
 released: 2026
 date: 2026-09-10
+# Optional original review month, displayed as month/year:
+# reviewed: 2026-09-01
 status: finished
 # Optional: finished: 2026-09-10
 # Optional rating, from 1 to 5 (halves allowed):
@@ -14,6 +16,8 @@ description: "Your central takeaway in one sentence."
 # Alternatively use an Open Library ID (olid) or ISBN (isbn).
 # Optional purchase link, displayed on the review page:
 # amazon_url: https://www.amazon.com/dp/BOOK_ASIN
+# Optional link to a freely available full text:
+# read_url: https://example.com/book/
 categories: [books]
 published: false
 ---

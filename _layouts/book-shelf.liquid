@@ -31,6 +31,9 @@ layout: default
             {% if book.stars %}
               <p class="book-rating">{{ book.stars }} / 5</p>
             {% endif %}
+            {% if book.reviewed %}
+              <p class="post-meta">Reviewed {{ book.reviewed | date: '%B %Y' }}</p>
+            {% endif %}
             {% if book.description %}
               <p>{{ book.description }}</p>
             {% endif %}
