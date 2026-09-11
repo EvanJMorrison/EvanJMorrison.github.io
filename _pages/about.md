@@ -5,8 +5,8 @@ permalink: /
 subtitle: Molecular biologist · Ribosome quality control · Protein fate
 profile:
   align: right
-  image: evan_profile.jpg
-  alt: Evan J. Morrison
+  image: evan-morrison-lab.jpg
+  alt: Evan J. Morrison smiling in the laboratory
   image_circular: false
   more_info: >
     <p>HHMI Gilliam Postdoctoral Research Fellow</p>
