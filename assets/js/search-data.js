@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-news",
+          title: "News",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/news/";
+          },
         },{id: "nav-blog",
           title: "Blog",
           description: "",
@@ -51,79 +58,37 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/contact/";
           },
-        },{id: "post-joining-the-kostova-lab-at-stowers",
-        
-          title: "Joining the Kostova lab at Stowers",
-        
-        description: "Beginning my postdoctoral work on ribosome quality control.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2026/kostova-lab-stowers/";
-          
-        },
-      },{id: "post-phd-completed",
-        
-          title: "PhD completed",
-        
-        description: "Completing my PhD in Molecular Biology &amp; Biochemistry at CU Anschutz.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/phd/";
-          
-        },
-      },{id: "post-rising-stars-in-biomedical-sciences",
-        
-          title: "Rising Stars in Biomedical Sciences",
-        
-        description: "An invited research talk at Sanford Burnham Prebys.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2024/rising-stars-biomedical-sciences/";
-          
-        },
-      },{id: "post-research-presentation-award-at-sacnas",
-        
-          title: "Research presentation award at SACNAS",
-        
-        description: "Presenting my N-degron research at NDiSTEM 2023 in Portland.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2023/sacnas-research-presentation/";
-          
-        },
-      },{id: "post-hhmi-gilliam-fellowship",
-        
-          title: "HHMI Gilliam Fellowship",
-        
-        description: "A fellowship supporting my doctoral research on protein degradation.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2022/hhmi-gilliam-fellowship/";
-          
-        },
-      },{id: "post-nsf-graduate-research-fellowship",
-        
-          title: "NSF Graduate Research Fellowship",
-        
-        description: "NSF support for my PhD research on how protein sequence regulates gene expression.",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2021/nsf-graduate-research-fellowship/";
-          
-        },
-      },{id: "news-i-have-officially-earned-my-phd-in-molecular-biology",
-          title: 'I have officially earned my PhD in Molecular Biology.',
-          description: "",
-          section: "News",},{id: "news-i-joined-the-kostova-lab-at-stowers-as-an-hhmi-gilliam-postdoctoral-research-fellow-read-more",
-          title: 'I joined the Kostova lab at Stowers as an HHMI Gilliam Postdoctoral Research...',
-          description: "",
-          section: "News",},{id: "projects-ribosome-and-protein-quality-control",
+        },{id: "news-nsf-graduate-research-fellowship",
+          title: 'NSF Graduate Research Fellowship',
+          description: "NSF support for my PhD research on how protein sequence regulates gene expression.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2021/nsf-graduate-research-fellowship/";
+            },},{id: "news-hhmi-gilliam-fellowship",
+          title: 'HHMI Gilliam Fellowship',
+          description: "A fellowship supporting my doctoral research on protein degradation.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2022/hhmi-gilliam-fellowship/";
+            },},{id: "news-research-presentation-award-at-sacnas",
+          title: 'Research presentation award at SACNAS',
+          description: "Presenting my N-degron research at NDiSTEM 2023 in Portland.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2023/sacnas-research-presentation/";
+            },},{id: "news-rising-stars-in-biomedical-sciences",
+          title: 'Rising Stars in Biomedical Sciences',
+          description: "An invited research talk at Sanford Burnham Prebys.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2024/rising-stars-biomedical-sciences/";
+            },},{id: "news-phd-completed",
+          title: 'PhD completed',
+          description: "Completing my PhD in Molecular Biology &amp; Biochemistry at CU Anschutz.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2025/phd/";
+            },},{id: "news-joining-the-kostova-lab-at-stowers",
+          title: 'Joining the Kostova lab at Stowers',
+          description: "Beginning my postdoctoral work on ribosome quality control.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026/kostova-lab-stowers/";
+            },},{id: "projects-ribosome-and-protein-quality-control",
           title: 'Ribosome and protein quality control',
           description: "Investigating the quality control of defective large ribosomal subunit proteins in human cells.",
           section: "Projects",handler: () => {
