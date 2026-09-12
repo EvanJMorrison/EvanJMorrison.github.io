@@ -449,3 +449,7 @@ footer.sticky-bottom {
     display: none;
   }
 }
+
+.post-gallery figure:only-child {
+  grid-column: 1 / -1;
+}
