@@ -68,6 +68,14 @@ layout: default
       </section>
     {% endif %}
 
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
     {% assign recent_books = site.books | where_exp: 'book', 'book.published != false' | sort: 'date' | reverse %}
     {% if recent_books.size > 0 %}
       <section aria-labelledby="recent-reading-title">
@@ -95,14 +103,6 @@ layout: default
           </article>
         {% endfor %}
       </section>
-    {% endif %}
-
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
-      {% include news.liquid limit=true %}
     {% endif %}
 
     <!-- Selected papers -->
