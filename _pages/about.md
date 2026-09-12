@@ -19,7 +19,7 @@ announcements:
   scrollable: false
   limit: 3
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: false
   limit: 3
 ---
@@ -37,9 +37,4 @@ My undergraduate training spans **chemistry and philosophy**. Alongside my resea
   <a class="site-button secondary" href="{{ '/projects/' | relative_url }}">Explore my research</a>
   <a class="text-link" href="{{ '/cv/' | relative_url }}">View CV</a>
   <a class="text-link" href="mailto:Emorrison@stowers.org">Get in touch</a>
-</div>
-
-<div class="recognition-strip" aria-label="Selected fellowships">
-  <span>HHMI Gilliam Fellow <small>since 2022</small></span>
-  <span>NSF Graduate Research Fellow <small>2021–2022</small></span>
 </div>
