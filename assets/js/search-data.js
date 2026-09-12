@@ -83,8 +83,8 @@ ninja.data = [{
           description: "A fellowship supporting my doctoral research on protein degradation.",
           section: "News",handler: () => {
               window.location.href = "/news/2022/hhmi-gilliam-fellowship/";
-            },},{id: "news-winning-an-outstanding-oral-presentation-award-at-ndistem",
-          title: 'Winning an Outstanding Oral Presentation Award at NDiSTEM',
+            },},{id: "news-outstanding-oral-presentation-award-at-ndistem-2023",
+          title: 'Outstanding Oral Presentation Award at NDiSTEM 2023',
           description: "Oral presentation award winner in Cell/Molecular Biology &amp; Developmental Biology at NDiSTEM 2023.",
           section: "News",handler: () => {
               window.location.href = "/news/2023/sacnas-research-presentation/";
