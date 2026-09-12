@@ -9,7 +9,21 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-research",
+  },{id: "nav-blog",
+          title: "Blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-books",
+          title: "Books",
+          description: "Book reviews and reading notes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
+          },
+        },{id: "nav-research",
           title: "Research",
           description: "How cells control protein fate, from ribosomes to degradation signals.",
           section: "Navigation",
@@ -29,20 +43,6 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/news/";
-          },
-        },{id: "nav-blog",
-          title: "Blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-books",
-          title: "Books",
-          description: "Book reviews and reading notes.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/books/";
           },
         },{id: "nav-cv",
           title: "CV",
