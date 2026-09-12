@@ -40,28 +40,32 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
-    {% if page.announcements and page.announcements.enabled %}
-      <h2>
-        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
-      </h2>
-      {% include news.liquid limit=true %}
-    {% endif %}
-
-    <!-- Latest posts -->
-    {% if page.latest_posts and page.latest_posts.enabled and site.posts.size > 0 %}
-      <h2>
-        <a href="{{ '/blog/' | relative_url }}" style="color: inherit">From the blog</a>
-      </h2>
-      {% include latest_posts.liquid %}
-    {% endif %}
-
-    <!-- Selected papers -->
-    {% if page.selected_papers %}
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
+    {% if page.latest_posts and page.latest_posts.enabled %}
+      <section class="home-blog" aria-labelledby="home-blog-title">
+        <p class="eyebrow">Writing & reflection</p>
+        <h2 id="home-blog-title"><a href="{{ '/blog/' | relative_url }}">Blog</a></h2>
+        <p>Essays on science, philosophy, and the ideas I’m thinking through.</p>
+        {% if site.posts.size > 0 %}
+          {% for post in site.posts limit: 3 %}
+            <article class="home-blog-entry">
+              <p class="post-meta">{% include display-date.liquid item=post %}</p>
+              <h3>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+              </h3>
+              {% if post.description %}
+                <p>{{ post.description }}</p>
+              {% endif %}
+            </article>
+          {% endfor %}
+          <a class="text-link" href="{{ '/blog/' | relative_url }}">All blog posts</a>
+        {% else %}
+          <p class="post-meta">My first essay is still to come. In the meantime, explore my book reviews.</p>
+          <div class="profile-actions">
+            <a class="site-button" href="{{ '/blog/' | relative_url }}">Visit the blog</a>
+            <a class="text-link" href="{{ '/books/' | relative_url }}">Read my book reviews</a>
+          </div>
+        {% endif %}
+      </section>
     {% endif %}
 
     {% assign recent_books = site.books | where_exp: 'book', 'book.published != false' | sort: 'date' | reverse %}
@@ -91,6 +95,22 @@ layout: default
           </article>
         {% endfor %}
       </section>
+    {% endif %}
+
+    <!-- News -->
+    {% if page.announcements and page.announcements.enabled %}
+      <h2>
+        <a href="{{ '/news/' | relative_url }}" style="color: inherit">News</a>
+      </h2>
+      {% include news.liquid limit=true %}
+    {% endif %}
+
+    <!-- Selected papers -->
+    {% if page.selected_papers %}
+      <h2>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
+      </h2>
+      {% include selected_papers.liquid %}
     {% endif %}
 
     <!-- Social -->

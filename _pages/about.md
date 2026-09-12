@@ -33,8 +33,9 @@ I earned my PhD in Molecular Biology & Biochemistry at the University of Colorad
 My undergraduate training spans **chemistry and philosophy**. Alongside my research, this site is a place for milestones from my scientific life, writing, and book reviews.
 
 <div class="profile-actions">
-  <a class="site-button" href="{{ '/projects/' | relative_url }}">Explore my research</a>
-  <a class="site-button secondary" href="{{ '/cv/' | relative_url }}">View CV</a>
+  <a class="site-button" href="{{ '/blog/' | relative_url }}">Read the blog</a>
+  <a class="site-button secondary" href="{{ '/projects/' | relative_url }}">Explore my research</a>
+  <a class="text-link" href="{{ '/cv/' | relative_url }}">View CV</a>
   <a class="text-link" href="mailto:Emorrison@stowers.org">Get in touch</a>
 </div>
 

@@ -12,9 +12,17 @@ let toggleThemeSetting = () => {
   }
 };
 
+let themeSettingFallback = "system";
+
 // Change the theme setting and apply the theme.
 let setThemeSetting = (themeSetting) => {
-  localStorage.setItem("theme", themeSetting);
+  if (!["light", "dark", "system"].includes(themeSetting)) themeSetting = "system";
+  themeSettingFallback = themeSetting;
+  try {
+    localStorage.setItem("theme", themeSetting);
+  } catch {
+    // Keep the choice for this page when browser storage is unavailable.
+  }
 
   document.documentElement.setAttribute("data-theme-setting", themeSetting);
 
@@ -57,6 +65,9 @@ let applyTheme = () => {
   }
 
   document.documentElement.setAttribute("data-theme", theme);
+  document.documentElement.style.colorScheme = theme;
+  const themeSelect = document.getElementById("theme-select");
+  if (themeSelect) themeSelect.value = determineThemeSetting();
 
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
@@ -255,7 +266,12 @@ let transTheme = () => {
 // Determine the expected state of the theme toggle, which can be "dark", "light", or
 // "system". Default is "system".
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
+  let themeSetting = themeSettingFallback;
+  try {
+    themeSetting = localStorage.getItem("theme") || themeSettingFallback;
+  } catch {
+    // Use the in-memory choice when browser storage is unavailable.
+  }
   if (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") {
     themeSetting = "system";
   }
@@ -285,11 +301,11 @@ let initTheme = () => {
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
-    const mode_toggle = document.getElementById("light-toggle");
-
-    mode_toggle.addEventListener("click", function () {
-      toggleThemeSetting();
-    });
+    const themeSelect = document.getElementById("theme-select");
+    if (themeSelect) {
+      themeSelect.value = determineThemeSetting();
+      themeSelect.addEventListener("change", () => setThemeSetting(themeSelect.value));
+    }
   });
 
   // Add event listener to the system theme preference change.
