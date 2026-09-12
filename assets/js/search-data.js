@@ -83,9 +83,9 @@ ninja.data = [{
           description: "A fellowship supporting my doctoral research on protein degradation.",
           section: "News",handler: () => {
               window.location.href = "/news/2022/hhmi-gilliam-fellowship/";
-            },},{id: "news-research-presentation-award-at-sacnas",
-          title: 'Research presentation award at SACNAS',
-          description: "Presenting my N-degron research at NDiSTEM 2023 in Portland.",
+            },},{id: "news-winning-an-outstanding-oral-presentation-award-at-ndistem",
+          title: 'Winning an Outstanding Oral Presentation Award at NDiSTEM',
+          description: "Oral presentation award winner in Cell/Molecular Biology &amp; Developmental Biology at NDiSTEM 2023.",
           section: "News",handler: () => {
               window.location.href = "/news/2023/sacnas-research-presentation/";
             },},{id: "news-rising-stars-in-biomedical-sciences",
