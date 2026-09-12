@@ -318,7 +318,7 @@ button:focus-visible {
 footer.sticky-bottom {
   margin-top: 2rem;
 }
-@media (max-width: 991.98px) {
+@media (max-width: 1199.98px) {
   #navbar .navbar-collapse {
     text-align: left !important;
   }
@@ -389,4 +389,63 @@ footer.sticky-bottom {
   font-size: 1rem;
   margin: 0.65rem 0;
   line-height: 1.6;
+}
+
+.home-blog {
+  margin: 2.5rem 0;
+  padding: clamp(1.25rem, 4vw, 2.5rem);
+  background: var(--personal-panel);
+  border-left: 4px solid var(--global-theme-color);
+}
+.home-blog h2 {
+  font-family: "Roboto Slab", Georgia, serif;
+  font-size: clamp(2rem, 4vw, 2.75rem);
+}
+.home-blog .profile-actions {
+  margin-bottom: 0;
+}
+.home-blog-entry {
+  border-top: 1px solid var(--global-divider-color);
+  padding: 1.25rem 0;
+}
+.theme-control {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-left: auto;
+  padding: 0.25rem 0;
+  font-size: 0.875rem;
+}
+.theme-control label {
+  margin: 0;
+}
+.theme-control select {
+  min-height: 44px;
+  padding: 0.4rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 5px;
+  color: var(--global-text-color);
+  background: var(--global-bg-color);
+  font: inherit;
+}
+.theme-control select:focus-visible {
+  outline: 3px solid var(--global-theme-color);
+  outline-offset: 2px;
+}
+#navbar .navbar-toggler {
+  margin-left: 0.75rem !important;
+}
+@media (min-width: 1200px) {
+  #navbar .navbar-collapse {
+    order: 1;
+  }
+  #navbar .theme-control {
+    order: 2;
+    margin-left: 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  #navbar .theme-control label {
+    display: none;
+  }
 }
