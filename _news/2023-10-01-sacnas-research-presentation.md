@@ -15,10 +15,6 @@ gallery:
     height: 1536
 ---
 
-I just presented **Tying up loose ends: Characterization of a novel N-degron pathway in humans** at the SACNAS National Diversity in STEM Conference in Portland, Oregon.
+I won the **Outstanding Oral Presentation Award in Cell/Molecular Biology & Developmental Biology** at NDiSTEM 2023 for my presentation, **Tying up loose ends: Characterization of a novel N-degron pathway in humans**.
 
-I won the **Outstanding Oral Presentation Award in Cell/Molecular Biology & Developmental Biology** at NDiSTEM 2023. SACNAS lists me as the oral presentation award recipient for this category in its [official announcement](https://www.sacnas.org/diversity-news/stem-students-recognized-for-research-and-presentation-skills-at-2023ndistem).
-
-The presentation focused on my doctoral research in the Rissland lab at CU Anschutz. I also received a SACNAS NDiSTEM Travel Scholarship this year.
-
-[Read about the research behind the presentation]({{ '/projects/2_n-degron-pathways/' | relative_url }}).
+Here's the [official announcement](https://www.sacnas.org/diversity-news/stem-students-recognized-for-research-and-presentation-skills-at-2023ndistem). This presentation focused on my doctoral research in the [Rissland Lab](https://www.risslandlab.com/) at CU Anschutz.
