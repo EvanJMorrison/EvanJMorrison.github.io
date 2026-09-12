@@ -16,7 +16,12 @@
             >
           </a>
           {% if photo.caption %}
-            <figcaption>{{ photo.caption | escape }}</figcaption>
+            <figcaption>
+              {{ photo.caption | escape }}
+              {% if photo.source_url %}
+                <a href="{{ photo.source_url | escape }}">{{ photo.source_label | default: 'Source' | escape }}</a>
+              {% endif %}
+            </figcaption>
           {% endif %}
         </figure>
       {% endfor %}

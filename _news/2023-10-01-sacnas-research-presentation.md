@@ -1,7 +1,7 @@
 ---
 layout: news
 permalink: /news/2023/sacnas-research-presentation/
-title: Winning an Outstanding Oral Presentation Award at NDiSTEM
+title: Outstanding Oral Presentation Award at NDiSTEM 2023
 date: 2023-10-01
 date_precision: month
 description: Oral presentation award winner in Cell/Molecular Biology & Developmental Biology at NDiSTEM 2023.
