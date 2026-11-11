@@ -3,7 +3,7 @@ layout: default
 title: News
 permalink: /news/
 nav: true
-nav_order: 5
+nav_order: 1
 ---
 
 <div class="post journal">

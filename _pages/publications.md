@@ -4,7 +4,7 @@ permalink: /publications/
 title: Publications
 description: Peer-reviewed papers and preprints, most recent first.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->

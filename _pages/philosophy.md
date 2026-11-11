@@ -4,7 +4,7 @@ title: Philosophy
 permalink: /philosophy/
 description: Teaching, mentoring, and learning.
 nav: true
-nav_order: 2.5
+nav_order: 4
 dropdown: true
 children:
   - title: Teaching

@@ -4,7 +4,7 @@ title: Research
 permalink: /projects/
 description: How cells control protein fate, from ribosomes to degradation signals.
 nav: true
-nav_order: 3
+nav_order: 2
 ---
 
 <div class="research-list">
