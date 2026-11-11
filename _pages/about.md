@@ -32,6 +32,8 @@ I earned my PhD in Molecular Biology & Biochemistry at the University of Colorad
 
 My undergraduate training spans **chemistry and philosophy**. Alongside my research, this site is a place for milestones from my scientific life, writing, and book reviews.
 
+**Research journey:** [Filbin Lab](https://www.filbinlab.com/) → [D’Alessandro Lab](https://www.dalessandrolab.com/) → [Rissland Lab](https://www.risslandlab.com/) → [Kostova Lab](https://labs.stowers.org/kostova) (current)
+
 <div class="profile-actions">
   <a class="site-button" href="{{ '/blog/' | relative_url }}">Read the blog</a>
   <a class="site-button secondary" href="{{ '/projects/' | relative_url }}">Explore my research</a>
