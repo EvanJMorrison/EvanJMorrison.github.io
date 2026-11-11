@@ -3,25 +3,32 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-about",
-    title: "About",
+    id: "nav-home",
+    title: "Home",
     section: "Navigation",
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-blog",
-          title: "Blog",
+  },{id: "nav-news",
+          title: "News",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/blog/";
+            window.location.href = "/news/";
           },
-        },{id: "nav-books",
-          title: "Books",
-          description: "Book reviews and reading notes.",
+        },{id: "nav-research",
+          title: "Research",
+          description: "How cells control protein fate, from ribosomes to degradation signals.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/books/";
+            window.location.href = "/projects/";
+          },
+        },{id: "nav-publications",
+          title: "Publications",
+          description: "Peer-reviewed papers and preprints, most recent first.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/publications/";
           },
         },{id: "dropdown-teaching",
               title: "Teaching",
@@ -37,26 +44,19 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/philosophy/#mentoring";
               },
-            },{id: "nav-research",
-          title: "Research",
-          description: "How cells control protein fate, from ribosomes to degradation signals.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/projects/";
-          },
-        },{id: "nav-publications",
-          title: "Publications",
-          description: "Peer-reviewed papers and preprints, most recent first.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/publications/";
-          },
-        },{id: "nav-news",
-          title: "News",
+            },{id: "nav-blog",
+          title: "Blog",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/news/";
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-books",
+          title: "Books",
+          description: "Book reviews and reading notes.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/books/";
           },
         },{id: "nav-cv",
           title: "CV",
