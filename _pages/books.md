@@ -3,7 +3,7 @@ layout: book-shelf
 title: Books
 permalink: /books/
 nav: true
-nav_order: 2
+nav_order: 6
 description: Book reviews and reading notes.
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Home
 permalink: /
 subtitle: Molecular biologist · Ribosome quality control · Protein fate
 profile:
