@@ -7,6 +7,8 @@ nav: true
 nav_order: 2
 ---
 
+I am broadly interested in mechanisms of protein and ribosome quality control, though I am also interested in the dynamics and regulation of post-transcriptional gene expression.
+
 <div class="research-list">
 {% assign research_projects = site.projects | sort: 'importance' %}
 {% for project in research_projects %}
