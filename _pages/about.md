@@ -9,9 +9,10 @@ profile:
   alt: Evan J. Morrison smiling in the laboratory
   image_circular: false
   more_info: >
-    <p>HHMI Gilliam Postdoctoral Research Fellow</p>
-    <p>Kostova Lab<br>Stowers Institute for Medical Research</p>
-    <p>Kansas City, Missouri</p>
+    <p>HHMI Gilliam Postdoctoral Research Fellow<br>
+    Kostova Lab<br>
+    Stowers Institute for Medical Research<br>
+    Kansas City, Missouri</p>
 selected_papers: true
 social: false
 announcements:
