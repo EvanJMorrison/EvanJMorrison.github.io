@@ -87,6 +87,11 @@ ninja.data = [{
           description: "A worthwhile defense of science, but an incomplete account of scientific literacy and pseudoscience.",
           section: "Books",handler: () => {
               window.location.href = "/books/the-demon-haunted-world/";
+            },},{id: "books-she-who-became-the-sun",
+          title: 'She Who Became the Sun',
+          description: "Zhu is fantastic, and I’d recommend the book. I just wish I’d been there for more of the decisions that make her so compelling.",
+          section: "Books",handler: () => {
+              window.location.href = "/books/she-who-became-the-sun/";
             },},{id: "news-nsf-graduate-research-fellowship",
           title: 'NSF Graduate Research Fellowship',
           description: "NSF support for my PhD research on how protein sequence regulates gene expression.",
