@@ -111,6 +111,17 @@ My work with Olivia S. Rissland examines the generation and consequences of this
     </figcaption>
   </figure>
 
+  <figure class="figure-gallery-slide" data-figure-slide data-figure-number="3">
+    <button type="button" class="figure-gallery-image" data-figure-advance aria-label="Show next figure" disabled>
+      <img src="{{ '/assets/img/research/proteoform-diversity-figure-3.png' | relative_url }}" alt="Histogram of differences in reporter stability, boxplots for PLEC, RABGAP1L, and TCF4, and a comparison of protein turnover times for two translation start sites." width="1670" height="705" decoding="async">
+    </button>
+    <figcaption class="figure-gallery-caption">
+      <strong>Figure 3. Small changes at the N terminus can change protein stability</strong>
+      <p>How much difference can a few amino acids make? When we reanalyzed reporter data, we found that different N termini from the same gene could confer very different stabilities. Panel B shows that range for PLEC, RABGAP1L, and TCF4. In the example in panel C, starting translation just two codons downstream shortened the time for half the protein to turn over from about 29 hours to 3 hours.</p>
+      <a href="{{ '/assets/img/research/proteoform-diversity-figure-3.png' | relative_url }}" aria-label="View full-size Figure 3">View full-size figure</a>
+    </figcaption>
+  </figure>
+
   <figure class="figure-gallery-slide" data-figure-slide data-figure-number="4">
     <button type="button" class="figure-gallery-image" data-figure-advance aria-label="Show next figure" disabled>
       <img src="{{ '/assets/img/research/proteoform-diversity-figure-4.png' | relative_url }}" alt="Model comparing canonical eIF5A with an extended form that has a predicted Arg/N-degron and an eIF5A-sensitive ribosome pause site." width="1650" height="505" decoding="async">
@@ -126,4 +137,4 @@ My work with Olivia S. Rissland examines the generation and consequences of this
 
 <script defer src="{{ '/assets/js/figure-gallery.js' | relative_url }}"></script>
 
-Figures from Morrison, E. J. and Rissland, O. S. (2025), [_The generation and consequences of N-terminal proteoform diversity_](https://doi.org/10.1016/j.celrep.2025.116275), _Cell Reports_ 44, 116275. © 2025 The Authors. Reproduced under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Figures 1 and 2 retain the original artwork; Figure 4 contains the label correction noted above. The summaries draw on the review text.
+Figures from Morrison, E. J. and Rissland, O. S. (2025), [_The generation and consequences of N-terminal proteoform diversity_](https://doi.org/10.1016/j.celrep.2025.116275), _Cell Reports_ 44, 116275. © 2025 The Authors. Reproduced under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Figures 1, 2, and 3 retain the original artwork; Figure 4 contains the label correction noted above. The summaries draw on the review text.
