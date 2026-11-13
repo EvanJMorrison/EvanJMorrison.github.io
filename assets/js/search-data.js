@@ -127,6 +127,11 @@ ninja.data = [{
           description: "Beginning my postdoctoral work on ribosome quality control.",
           section: "News",handler: () => {
               window.location.href = "/news/2026/kostova-lab-stowers/";
+            },},{id: "news-featured-by-stowers-from-philosophy-to-proteins",
+          title: 'Featured by Stowers: From philosophy to proteins',
+          description: "A Stowers profile on my path from philosophy to molecular biology and my postdoctoral research in the Kostova Lab.",
+          section: "News",handler: () => {
+              window.location.href = "/news/2026/stowers-feature/";
             },},{id: "projects-ribosome-and-protein-quality-control",
           title: 'Ribosome and protein quality control',
           description: "Investigating the quality control of defective large ribosomal subunit proteins in human cells.",
